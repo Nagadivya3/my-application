@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bankingsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".transfer9"></activity>
+        <activity android:name=".person9" />
+        <activity android:name=".transfer8" />
+        <activity android:name=".person8" />
+        <activity android:name=".transfer7" />
+        <activity android:name=".person7" />
+        <activity android:name=".transfer6" />
+        <activity android:name=".person6" />
+        <activity android:name=".transfer5" />
+        <activity android:name=".person5" />
+        <activity android:name=".person4" />
+        <activity android:name=".transfer4" />
+        <activity android:name=".transfer3" />
+        <activity android:name=".person3" />
+        <activity android:name=".person2" />
+        <activity android:name=".transfer" />
+        <activity android:name=".transfer2" />
+        <activity android:name=".person1" />
+        <activity android:name=".transfer1" />
+        <activity android:name=".person" />
+        <activity android:name=".customerdetails3" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
